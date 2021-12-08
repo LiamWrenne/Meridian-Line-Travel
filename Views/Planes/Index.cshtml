@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Meridian_Line_Travel.Models.Planes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PlaneIDNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeatingCapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Assignment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AoO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AoD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightIDNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlaneName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaneIDNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeatingCapacity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Assignment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AoO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AoD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightIDNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaneName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PlaneID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PlaneID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PlaneID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

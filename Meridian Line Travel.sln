@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meridian Line Travel", "Meridian Line Travel.csproj", "{C32E0A1B-A993-41BD-885C-53AB6092B1A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32E0A1B-A993-41BD-885C-53AB6092B1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32E0A1B-A993-41BD-885C-53AB6092B1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32E0A1B-A993-41BD-885C-53AB6092B1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32E0A1B-A993-41BD-885C-53AB6092B1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962AE0B3-E259-4C3D-9CA6-94603971997D}
+	EndGlobalSection
+EndGlobal
