@@ -19,8 +19,7 @@ namespace Meridian_Line_Travel.Controllers
         {
             _context = context;
         }
-        [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         // GET: Planes
         public async Task<IActionResult> Index()
         {
