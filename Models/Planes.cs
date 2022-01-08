@@ -10,6 +10,7 @@ namespace Meridian_Line_Travel.Models
     {
         [Key]
         public string PlaneID { get; set; }
+        public string IDName { get; set; }
         public int PlaneIDNum { get; set; }
         public int SeatingCapacity { get; set; }
         public string Assignment { get; set; }

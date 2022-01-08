@@ -14,6 +14,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="PlaneID" />
             <div class="form-group">
+                <label asp-for="IDName" class="control-label"></label>
+                <input asp-for="IDName" class="form-control" />
+                <span asp-validation-for="IDName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="PlaneIDNum" class="control-label"></label>
                 <input asp-for="PlaneIDNum" class="form-control" />
                 <span asp-validation-for="PlaneIDNum" class="text-danger"></span>

@@ -7498,11 +7498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Liam\\source\\repos\\Meridian Line Travel\\Meridian Line Travel.csproj",
+      "projectUniqueName": "C:\\Users\\Liam\\Source\\Repos\\LiamWrenne\\Meridian-Line-Travel\\Meridian Line Travel.csproj",
       "projectName": "Meridian Line Travel",
-      "projectPath": "C:\\Users\\Liam\\source\\repos\\Meridian Line Travel\\Meridian Line Travel.csproj",
+      "projectPath": "C:\\Users\\Liam\\Source\\Repos\\LiamWrenne\\Meridian-Line-Travel\\Meridian Line Travel.csproj",
       "packagesPath": "C:\\Users\\Liam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Liam\\source\\repos\\Meridian Line Travel\\obj\\",
+      "outputPath": "C:\\Users\\Liam\\Source\\Repos\\LiamWrenne\\Meridian-Line-Travel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Liam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7576,7 +7576,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

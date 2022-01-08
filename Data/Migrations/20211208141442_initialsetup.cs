@@ -11,13 +11,14 @@ namespace Meridian_Line_Travel.Data.Migrations
                 columns: table => new
                 {
                     PlaneID = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    PlaneIDNum = table.Column<int>(type: "int", nullable: false),
-                    SeatingCapacity = table.Column<int>(type: "int", nullable: false),
+                    IDName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PlaneIDNum = table.Column<string>(type: "int", nullable: false),
+                    SeatingCapacity = table.Column<string>(type: "int", nullable: false),
                     Assignment = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AoO = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AoD = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FlightID = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FlightIDNum = table.Column<int>(type: "int", nullable: false),
+                    FlightIDNum = table.Column<string>(type: "int", nullable: false),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PlaneName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },

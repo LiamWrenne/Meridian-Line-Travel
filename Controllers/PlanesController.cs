@@ -55,7 +55,7 @@ namespace Meridian_Line_Travel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PlaneID,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
+        public async Task<IActionResult> Create([Bind("PlaneID,IDName,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace Meridian_Line_Travel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PlaneID,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
+        public async Task<IActionResult> Edit(string id, [Bind("PlaneID,IDName,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
         {
             if (id != planes.PlaneID)
             {
