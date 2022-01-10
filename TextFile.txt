@@ -1,2 +1,0 @@
-﻿https://github.com/GavinLonDigital/TechTreeMVCWebApplication/blob/main/TechTreeMVCWebApplication/Code%20Snippets/AddAdminAccount_Migration_Code_Snippets.txt
-helpfulish

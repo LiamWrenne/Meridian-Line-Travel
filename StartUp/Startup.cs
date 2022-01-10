@@ -17,6 +17,7 @@ namespace Meridian_Line_Travel
 {
     public class Startup
     {
+        // Startup, connects to the Database
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -60,6 +61,10 @@ namespace Meridian_Line_Travel
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                  name: "Admin",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

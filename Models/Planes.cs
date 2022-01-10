@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Meridian_Line_Travel.Models
 {
+    // Headings for Aircraft data used with PlaneController and Planes views to make table with database data
     public class Planes
     {
         [Key]

@@ -51,8 +51,6 @@ namespace Meridian_Line_Travel.Controllers
         }
         
         // POST: Planes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PlaneID,IDName,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
@@ -83,8 +81,6 @@ namespace Meridian_Line_Travel.Controllers
         }
         
         // POST: Planes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("PlaneID,IDName,PlaneIDNum,SeatingCapacity,Assignment,AoO,AoD,FlightID,FlightIDNum,Type,PlaneName")] Planes planes)
